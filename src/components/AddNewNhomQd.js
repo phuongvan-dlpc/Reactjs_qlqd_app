@@ -45,7 +45,7 @@ const AddNewNhomQd = () => {
                 />
             </div>
             <div className="inputs-data">
-                <label> Tên nhóm quyết định: </label>
+                <label> Tên nhóm QĐ: </label>
                 <input type="text" 
                     value={tennhom}
                     onChange={(e) => setTennhom(e.target.value)}
